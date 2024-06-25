@@ -9,7 +9,9 @@ body {
 p,
 label,
 input,
-fieldset {
+fieldset,
+select,
+button {
   font: 1rem "Fira Sans", sans-serif;
 }
 
@@ -84,6 +86,7 @@ iframe + input:hover {
     transform: rotate(360deg);
   }
 }
+
 
 /* keep at bottom */
 .display-none {
